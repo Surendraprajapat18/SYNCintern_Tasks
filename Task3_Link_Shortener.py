@@ -8,7 +8,7 @@ import requests
 
 # account credentials
 username = "o_qlqklvlap"
-password = "Surendra@2004"
+password = "Password"
 
 # get the access token
 auth_res = requests.post("https://api-ssl.bitly.com/oauth/access_token", auth=(username, password))
